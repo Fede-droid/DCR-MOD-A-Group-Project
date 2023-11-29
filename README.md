@@ -1,3 +1,13 @@
+<details>
+  <summary>Sezioni</summary>
+
+  - [Sezione 1](#sezione-1)
+  - [Sezione 2](#sezione-2)
+  - [Sezione 3](#sezione-3)
+
+</details>
+
+
 # Image Quality Evaluation Project
 
 ## Introduction
