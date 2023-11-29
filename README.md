@@ -2,8 +2,9 @@
   <summary>Sections</summary>
 
   - [Image Quality Evaluation Project](#image-quality-evaluation-project)
+  - [display_imgs.m](#image-quality-evaluation-project)
   - [histograms.m](#matlab-code-display-multiple-images-display_imgsm)
-  - [display_imgs.m](#introduction)
+  
 
 </details>
 
