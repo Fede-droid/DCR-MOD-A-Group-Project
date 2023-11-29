@@ -1,5 +1,5 @@
 <details>
-  <summary>Sections</summary>
+  
 
   - [Image Quality Evaluation Project](#image-quality-evaluation-project)
   - [display_imgs.m](#matlab-code-display-multiple-images-display_imgsm)
