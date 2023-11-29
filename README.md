@@ -2,8 +2,8 @@
   <summary>Sections</summary>
 
   - [Image Quality Evaluation Project](#image-quality-evaluation-project)
-  - [display_imgs.m](#image-quality-evaluation-project)
-  - [histograms.m](#matlab-code-display-multiple-images-display_imgsm)
+  - [display_imgs.m](#matlab-code-display-multiple-images-display_imgsm)
+  - [histograms.m]()
   
 
 </details>
@@ -85,7 +85,9 @@ set(gcf, 'Position', get(0, 'Screensize'));
 Feel free to customize this code to suit your needs. Add or remove images as necessary, and modify the file names accordingly. If you have any questions or suggestions, please don't hesitate to reach out!
 
 **Note:** Ensure that your MATLAB script and images are in the same directory for seamless execution.
+
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
 # MATLAB Code: Image Histograms (histograms.m)
 
 This MATLAB code generates histograms for the 'original,' 'medium,' and 'low' image sets. The histograms provide insights into the distribution of scores for each category.
