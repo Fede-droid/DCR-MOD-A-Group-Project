@@ -42,6 +42,39 @@ Our project involved an Image Quality Evaluation session, where group members co
 Feel free to explore the visual representations and comments for a deeper understanding of our Image Quality Evaluation project.
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# MATLAB Code: Display Multiple Images (display_imgs.m)
+
+This MATLAB code is designed to display a series of images in full-screen mode. The code utilizes the `imshow` function to showcase images, and each image is opened in a new figure window.
+
+## Usage
+
+To use this code:
+
+1. Replace the file names ("26.jpg", "21.jpg", ...) with the names of your own image files.
+2. Ensure all the images are in the same directory as your MATLAB script.
+
+```matlab
+figure;
+imshow("26.jpg");
+set(gcf, 'Position', get(0, 'Screensize'));
+
+figure;
+imshow("21.jpg");
+set(gcf, 'Position', get(0, 'Screensize'));
+
+% Continue this pattern for the remaining images...
+```
+
+## Interpretation
+
+- Each `figure` command opens a new window to display a specific image.
+- The `imshow` function is used to show the corresponding image in each figure.
+- `set(gcf, 'Position', get(0, 'Screensize'))` ensures that each figure occupies the entire screen.
+
+Feel free to customize this code to suit your needs. Add or remove images as necessary, and modify the file names accordingly. If you have any questions or suggestions, please don't hesitate to reach out!
+
+**Note:** Ensure that your MATLAB script and images are in the same directory for seamless execution.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 # MATLAB Code: Image Histograms (histograms.m)
 
 This MATLAB code generates histograms for the 'original,' 'medium,' and 'low' image sets. The histograms provide insights into the distribution of scores for each category.
