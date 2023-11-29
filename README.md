@@ -139,3 +139,37 @@ title(sprintf('Original: m=%.2f var=%.2f \n Medium: m=%.2f var=%.2f \n Low: m=%.
 - The combined histogram offers a comparative view of average scores across categories, providing an insightful summary.
 
 Feel free to use and modify this code for your image evaluation tasks. If you have any questions or suggestions, please don't hesitate to reach out!
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# Image Observation and Emotional Experiment
+
+## Experiment Overview
+
+As an extension of our image quality evaluation project, we conducted an additional experiment focused on extracting emotions through image observation. In this experiment, we aimed to understand the emotional responses elicited by specific images used in our project.
+
+## Experimental Steps
+
+1. **Online Form Creation:**
+   - We designed an online form incorporating both multiple-choice questions and open-ended queries.
+   - Participants were asked to provide multiple-choice responses and share the emotions evoked by particular images from our project.
+
+2. **Data Collection:**
+   - The form was distributed, and responses were collected from participants.
+   - The collected data included both quantitative and qualitative insights into the emotional impact of the images used in our project.
+
+3. **Graphical Representation:**
+   - Utilizing the gathered data, we created various graphical representations to illustrate the emotional responses.
+   - Graphs and charts were generated to visualize patterns, trends, and correlations between the chosen images and the emotions they evoked.
+
+## Experiment Outcome
+
+The experiment allowed us to go beyond the technical aspects of image evaluation and explore the subjective realm of emotions triggered by the images used in our project. By merging quantitative data with qualitative insights, we gained a holistic understanding of the emotional impact of these images.
+
+## GitHub Repository
+
+For a detailed exploration and access to the code, visualizations, and images related to this emotional experiment, please refer to our GitHub repository.
+
+**[Link to GitHub Repository]**
+
+Feel free to explore the experiment's findings, contribute to the discussion, or utilize the code for your own projects. If you have any questions or feedback, we welcome your input. Thank you for joining us on this multidimensional exploration of image evaluation!
