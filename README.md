@@ -1,4 +1,4 @@
-<details>
+
   
 
   - [Image Quality Evaluation Project](#image-quality-evaluation-project)
@@ -7,7 +7,7 @@
   - [Emotional Experiment](#image-observation-and-emotional-experiment)
   
 
-</details>
+
 
 
 # Image Quality Evaluation Project
