@@ -40,3 +40,69 @@ Our project involved an Image Quality Evaluation session, where group members co
 - A lower variance, as seen in 'low compression,' indicates results closer to the mean value.
 
 Feel free to explore the visual representations and comments for a deeper understanding of our Image Quality Evaluation project.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# MATLAB Code: Image Histograms (histograms.m)
+
+This MATLAB code generates histograms for the 'original,' 'medium,' and 'low' image sets. The histograms provide insights into the distribution of scores for each category.
+
+## Usage
+
+1. **Histograms for Individual Categories**
+   - The code first generates histograms for the 'original,' 'medium,' and 'low' categories, displaying them side by side.
+   - Each histogram is represented as a stem plot with filled markers, maintaining consistent scales for clarity.
+   - The x-axis is labeled from 0 to 10, avoiding the default 2-4-6... format.
+   - The 'grid on' command enhances readability.
+
+```matlab
+figure;
+subplot(1,3,1);
+stem(original,'filled', 'LineWidth',3);
+xlim([0 10]);
+ylim([0 5]);
+xticks(0:10);
+title('original');
+grid on
+
+subplot(1,3,2);
+stem(medium,'filled', 'LineWidth',3);
+xlim([0 10]);
+ylim([0 5]);
+xticks(0:10);
+title('medium');
+grid on
+
+subplot(1,3,3);
+stem(low,'filled', 'LineWidth',3);
+xlim([0 10]);
+ylim([0 5]);
+xticks(0:10);
+title('low');
+grid on
+```
+
+2. **Final Combined Histogram**
+   - The code then calculates the mean and variance for each image category ('original,' 'medium,' 'low').
+   - Finally, it creates a combined histogram that compares the average scores of each category.
+   - The histogram is labeled with mean and variance values for each category.
+
+```matlab
+l_tot = sum(low)/length(low);
+m_tot = sum(medium)/length(medium);
+o_tot = sum(original)/length(original);
+counts = [o_tot, m_tot, l_tot];
+
+l_var = var(low);
+m_var = var(medium);
+o_var = var(original);
+
+figure;
+histogram('Categories',{'Original','Medium','Low'}, 'BinCounts',counts)
+title(sprintf('Original: m=%.2f var=%.2f \n Medium: m=%.2f var=%.2f \n Low: m=%.2f var=%.2f ',o_tot,o_var,m_tot,m_var,l_tot,l_var));
+```
+
+## Interpretation
+- The individual histograms reveal the distribution of scores for each image category.
+- The combined histogram offers a comparative view of average scores across categories, providing an insightful summary.
+
+Feel free to use and modify this code for your image evaluation tasks. If you have any questions or suggestions, please don't hesitate to reach out!
