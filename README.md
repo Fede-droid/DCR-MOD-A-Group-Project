@@ -170,6 +170,4 @@ The experiment allowed us to go beyond the technical aspects of image evaluation
 
 For a detailed exploration and access to the code, visualizations, and images related to this emotional experiment, please refer to our GitHub repository.
 
-**[Link to GitHub Repository]**
-
 Feel free to explore the experiment's findings, contribute to the discussion, or utilize the code for your own projects. If you have any questions or feedback, we welcome your input. Thank you for joining us on this multidimensional exploration of image evaluation!
