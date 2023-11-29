@@ -3,7 +3,7 @@
 
   - [Image Quality Evaluation Project](#image-quality-evaluation-project)
   - [histograms.m](#matlab-code-display-multiple-images-display_imgsm)
-  - [display_imgs.m](#MATLAB Code: Display Multiple Images)
+  - [display_imgs.m](#introduction)
 
 </details>
 
