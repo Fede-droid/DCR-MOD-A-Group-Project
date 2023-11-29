@@ -1,9 +1,9 @@
 <details>
-  <summary>Sezioni</summary>
+  <summary>Sections</summary>
 
-  - [Sezione 1](#sezione-1)
-  - [Sezione 2](#sezione-2)
-  - [Sezione 3](#sezione-3)
+  - [Image Quality Evaluation Project](#image-quality-evaluation-project)
+  - [histograms.m](#MATLAB Code: Image Histograms)
+  - [display_imgs.m](#MATLAB Code: Display Multiple Images)
 
 </details>
 
@@ -11,7 +11,7 @@
 # Image Quality Evaluation Project
 
 ## Introduction
-Good morning! I'm [Your Name], and this README will guide you through our Image Quality Evaluation project. In the next few minutes, we'll walk you through our project phases and highlight critical aspects of the results we've achieved.
+Good morning! this README will guide you through our Image Quality Evaluation project. In the next few minutes, we'll walk you through our project phases and highlight critical aspects of the results we've achieved.
 
 ## Topics to be Covered
 In this README, we'll cover:
